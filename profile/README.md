@@ -1,12 +1,24 @@
 ## Open Audio Stack
 
-Open-source audio plugin management software.
+Open-source audio package management software and standards. Enables interoperability between multiple audio platforms and the software installed locally on users computers.
 
-### Code
+### Registry
 
-- [open-audio-stack-core](https://github.com/open-audio-stack/open-audio-stack-core)
-- [open-audio-stack-registry](https://github.com/open-audio-stack/open-audio-stack-registry)
+Database of package metadata and files with an API for read access:
+- [Read specification](https://github.com/open-audio-stack/open-audio-stack-core/wiki/Open-Audio-Stack-%E2%80%90-Registry-%E2%80%90-Specification-1.0.0)
+- [View code](https://github.com/open-audio-stack/open-audio-stack-registry)
 
-### Documentation
+#### Compatible registries:
+- [Open Audio Stack Registry](https://open-audio-stack.github.io/open-audio-stack-registry)
 
-- [Open Audio Stack ‐ Registry ‐ Specification 1.0.0](https://github.com/open-audio-stack/open-audio-stack-core/wiki/Open-Audio-Stack-%E2%80%90-Registry-%E2%80%90-Specification-1.0.0)
+
+### Manager
+
+Uses a Registry API to search, view, download and install packages:
+- [Read specification](https://github.com/open-audio-stack/open-audio-stack-core/wiki/Open-Audio-Stack-%E2%80%90-Manager-%E2%80%90-Specification-1.0.0)
+- [View code](https://github.com/open-audio-stack/open-audio-stack-core)
+
+#### Compatible managers:
+- [StudioRack app/cli/website](https://studiorack.github.io/studiorack-site)
+- [OwlPlug app/website](https://owlplug.com)
+  
